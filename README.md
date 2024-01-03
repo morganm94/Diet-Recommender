@@ -1,39 +1,47 @@
-Personalized Diet and Workout Recommender App
-Overview
+# Personalized Diet and Workout Recommender App
+
+## Overview
+
 This is a Streamlit web application designed to provide personalized diet and workout recommendations based on user input. The recommendations are generated using a language model (LLM) to create a natural language dialogue for a more interactive experience.
 
-Features
-User Input: Collects user information such as age, gender, weight, height, dietary preferences, address, and food allergies.
+## Features
 
-LLM Integration: Utilizes a language model for generating recommendations tailored to user input.
+- **User Input**: Collects user information such as age, gender, weight, height, dietary preferences, address, and food allergies.
 
-Recommendation Categories: Provides recommendations for restaurants, breakfast, dinner, and workouts.
+- **LLM Integration**: Utilizes a language model for generating recommendations tailored to user input.
 
-Interactive Interface: Utilizes the Streamlit framework to create a user-friendly and interactive web interface.
+- **Recommendation Categories**: Provides recommendations for restaurants, breakfast, dinner, and workouts.
 
-Getting Started
-Install the required dependencies:
+- **Interactive Interface**: Utilizes the Streamlit framework to create a user-friendly and interactive web interface.
 
-bash
-Copy code
-pip install torch streamlit transformers ctransformers
-Set up your OpenAI API key:
+## Getting Started
 
-Obtain an API key from OpenAI and set it as an environment variable.
+1. Install the required dependencies:
 
-bash
-Copy code
-export OPENAI_API_KEY=your_api_key
-Run the Streamlit app:
+    ```bash
+    pip install torch streamlit transformers ctransformers
+    ```
 
-bash
-Copy code
-streamlit run your_app_file.py
-Usage
-Open the web application in your browser.
+2. Set up your OpenAI API key:
 
-Input your personal details including age, gender, weight, height, dietary preferences, address, and food allergies.
+    Obtain an API key from OpenAI and set it as an environment variable.
 
-Click the "Get Recommendations" button.
+    ```bash
+    export OPENAI_API_KEY=your_api_key
+    ```
 
-View the personalized recommendations for restaurants, breakfast, dinner, and workouts.
+3. Run the Streamlit app:
+
+    ```bash
+    streamlit run your_app_file.py
+    ```
+
+## Usage
+
+1. Open the web application in your browser.
+
+2. Input your personal details including age, gender, weight, height, dietary preferences, address, and food allergies.
+
+3. Click the "Get Recommendations" button.
+
+4. View the personalized recommendations for restaurants, breakfast, dinner, and workouts.
