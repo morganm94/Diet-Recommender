@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a Streamlit web application designed to provide personalized diet and workout recommendations based on user input. The recommendations are generated using a language model (LLM) to create a natural language dialogue for a more interactive experience.
+This is a web application designed to provide personalized diet and workout recommendations based on user input. The recommendations are generated using a language model (LLM) for a more interactive experience.
 
 ## Features
 
@@ -16,7 +16,7 @@ This is a Streamlit web application designed to provide personalized diet and wo
 
 ## Getting Started
 
-1. Install the required dependencies:
+1. Install the required dependencies if using Llama2 LLM:
 
     ```bash
     pip install torch streamlit transformers ctransformers
@@ -27,13 +27,13 @@ This is a Streamlit web application designed to provide personalized diet and wo
     Obtain an API key from OpenAI and set it as an environment variable.
 
     ```bash
-    export OPENAI_API_KEY=your_api_key
+    export OPENAI_API_KEY=api_key
     ```
 
 3. Run the Streamlit app:
 
     ```bash
-    streamlit run your_app_file.py
+    streamlit run app.py
     ```
 
 ## Usage
