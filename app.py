@@ -4,7 +4,7 @@ gc.collect()
 torch.cuda.empty_cache()
 import streamlit as st
 from langchain.prompts import PromptTemplate
-from langchain.llms import CTransformers,OpenAI
+from langchain.llms import OpenAI
 from langchain.chains import LLMChain
 import re
 import os
@@ -14,7 +14,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 api_key = os.environ.get('apikey')
-
 os.environ['OPENAI_API_KEY'] = api_key
 st.title("Personalized Diet and Workout Recommender:coffee:")
 st.markdown('<style>h1{color: orange; text-align: center;}</style>', unsafe_allow_html=True)
