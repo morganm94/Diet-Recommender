@@ -28,7 +28,7 @@ This is a web application designed to provide personalized diet and workout reco
     pip install torch streamlit transformers ctransformers
     ```
 
-2. Set up your OpenAI API key:
+(OR) Set up your OpenAI API key:
 
     Obtain an API key from OpenAI and set it as an environment variable.
 
@@ -36,7 +36,7 @@ This is a web application designed to provide personalized diet and workout reco
     export OPENAI_API_KEY=api_key
     ```
 
-3. Run the Streamlit app:
+2. Run the Streamlit app:
 
     ```bash
     streamlit run app.py
