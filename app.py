@@ -4,10 +4,10 @@ gc.collect()
 torch.cuda.empty_cache()
 import streamlit as st
 from langchain.prompts import PromptTemplate
-from langchain.llms import OpenAI
+# from langchain.llms import OpenAI
+from langchain_openai import OpenAI
 from langchain.chains import LLMChain
 import re
-import os
 # from ctransformers import AutoModelForCausalLM, AutoTokenizer
 import os 
 # from Openai_api import apikey
