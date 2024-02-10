@@ -8,7 +8,7 @@ from langchain.llms import CTransformers,OpenAI
 from langchain.chains import LLMChain
 import re
 import os
-from ctransformers import AutoModelForCausalLM, AutoTokenizer
+# from ctransformers import AutoModelForCausalLM, AutoTokenizer
 import os 
 # from Openai_api import apikey
 from dotenv import load_dotenv
