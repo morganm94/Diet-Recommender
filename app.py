@@ -10,9 +10,12 @@ import re
 import os
 from ctransformers import AutoModelForCausalLM, AutoTokenizer
 import os 
-from Openai_api import apikey
+# from Openai_api import apikey
+from dotenv import load_dotenv
+load_dotenv()
+api_key = os.environ.get('apikey')
 
-os.environ['OPENAI_API_KEY'] = apikey
+os.environ['OPENAI_API_KEY'] = api_key
 st.title("Personalized Diet and Workout Recommender:coffee:")
 st.markdown('<style>h1{color: orange; text-align: center;}</style>', unsafe_allow_html=True)
 st.subheader('Your Best Food and Exercise Advisor:spoon:')
