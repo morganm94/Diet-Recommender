@@ -14,6 +14,9 @@ This is a web application designed to provide personalized diet and workout reco
 
 - **Interactive Interface**: Utilizes the Streamlit framework to create a user-friendly and interactive web interface.
 
+## Website Link
+
+https://diet-recommender.streamlit.app/
 
 ## Demo Results
 <img width="947" alt="image" src="https://github.com/Deepakv1210/Diet-Recommender/assets/154148155/723ecf56-9ee3-4de8-a684-f6f0494c82be">
