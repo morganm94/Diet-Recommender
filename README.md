@@ -16,20 +16,15 @@ This is a web application designed to provide personalized diet and workout reco
 
 ## Website Link
 
-https://diet-recommender.streamlit.app/
-
-## Demo Results
-<img width="947" alt="image" src="https://github.com/Deepakv1210/Diet-Recommender/assets/154148155/723ecf56-9ee3-4de8-a684-f6f0494c82be">
-<img width="514" alt="image" src="https://github.com/Deepakv1210/Diet-Recommender/assets/154148155/7475c1e9-7ac4-4116-a6a7-92af1d76361c">
-
+https://diet-recommender.streamlit.app
 
 ## Getting Started
 
 1. Install the required dependencies if using Llama2 LLM:
 
-    ```bash
-    pip install torch streamlit transformers ctransformers
-    ```
+   ```bash
+   pip install torch streamlit transformers ctransformers
+   ```
 
 (OR) Set up your OpenAI API key:
 
@@ -41,9 +36,9 @@ https://diet-recommender.streamlit.app/
 
 2. Run the Streamlit app:
 
-    ```bash
-    streamlit run app.py
-    ```
+   ```bash
+   streamlit run app.py
+   ```
 
 ## Usage
 
@@ -54,3 +49,7 @@ https://diet-recommender.streamlit.app/
 3. Click the "Get Recommendations" button.
 
 4. View the personalized recommendations for restaurants, breakfast, dinner, and workouts.
+
+## Contact
+
+Do you have any concerns or need any support? Just contact mmastrangelo1120@gmail.com for the communication.
